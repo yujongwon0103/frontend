@@ -45,7 +45,11 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "no-console": "warn",
+      "no-unused-vars": "warn",
+      "vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]
+    }
   },
   "browserslist": [
     "> 1%",
